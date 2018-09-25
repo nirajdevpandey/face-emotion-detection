@@ -10,7 +10,7 @@ Here is what training data look like:
 
 
 Here is what test data look like: 
-![title](https://github.com/nirajdevpandey/face-emotion-detection/blob/master/data-set/training_data.PNG)
+![title](https://github.com/nirajdevpandey/face-emotion-detection/blob/master/data-set/test_data.PNG)
 
 train.csv contains two columns, "emotion" and "pixels". The "emotion" column contains a numeric code ranging from 0 to 6, inclusive, for the emotion that is present in the image. The "pixels" column contains a string surrounded in quotes for each image. The contents of this string a space-separated pixel values in row major order. test.csv contains only the "pixels" column and your task is to predict the emotion column.
 
