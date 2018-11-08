@@ -64,7 +64,7 @@ while True:
             emotion_mode = mode(emotion_window)
         except:
             continue
-
+        #Below lines of code is to color the bounding boxes for different emotions
         if emotion_text == 'angry':
             color = emotion_probability * np.asarray((255, 0, 0))
         elif emotion_text == 'sad':
@@ -82,7 +82,7 @@ while True:
         draw_bounding_box(face_coordinates, rgb_image, color)
         draw_text(face_coordinates, rgb_image, emotion_mode,
                   color, 0, -45, 1, 1)
-
+    #Press Esc to exit from the program
     bgr_image = cv2.cvtColor(rgb_image, cv2.COLOR_RGB2BGR)
     cv2.imshow('window_frame', bgr_image)
     if cv2.waitKey(1) & 0xFF == ord('q'):
