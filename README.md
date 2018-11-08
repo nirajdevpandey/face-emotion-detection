@@ -1,5 +1,29 @@
 # face-emotion-detection
 
+### install the correct dependencies by runing below python user defined function
+
+```python
+def lib():
+    !pip install numpy
+    import numpy as np
+    print("congratulations you are now using {} numpy version".format(np.__version__))
+    !pip install tensorflow
+    import tensorflow as tf
+    print("congratulations you are now using {} tensorflow version".format(tf.__version__))
+    !pip install keras
+    import keras
+    print("congratulations you are now using {} keras version".format(keras.__version__))
+    !pip install opencv-python
+    import cv2
+    print("congratulations you are now using {} open cv version".format(cv2.__version__))
+    print()
+    print("You have what is takes to run this project, you are good to go"\
+         " but you might need to install scipy library which is being used in utils/preprocessors.py file")
+    
+lib()
+
+```
+
 ### Data-set
 
 First thing first, let's see which data was used and what was inside it. 
