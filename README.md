@@ -30,4 +30,6 @@ This dataset was prepared by `Pierre-Luc Carrier` and `Aaron Courville`, as part
 
 Trained model can be found in the repository itself. Special thanks to `B-IT-BOTS` robotics team for such a wonderful resources and the pretrained models. https://mas-group.inf.h-brs.de/?page_id=622
 
+The credit goes to `B-IT-Bots graoup`. 
+
 Please stay tuned, i'll upadte the readme very soon. Thanks 
