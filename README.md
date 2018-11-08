@@ -4,16 +4,16 @@
 
 ```python
 def lib():
-    !pip install numpy
+    !pip install numpy==1.15.4
     import numpy as np
     print("congratulations you are now using {} numpy version".format(np.__version__))
-    !pip install tensorflow
+    !pip install tensorflow==1.12.0
     import tensorflow as tf
     print("congratulations you are now using {} tensorflow version".format(tf.__version__))
-    !pip install keras
+    !pip install keras==2.2.4
     import keras
     print("congratulations you are now using {} keras version".format(keras.__version__))
-    !pip install opencv-python
+    !pip install opencv-python==3.4.3
     import cv2
     print("congratulations you are now using {} open cv version".format(cv2.__version__))
     print()
