@@ -42,7 +42,7 @@ label   |    category
 Here is what training data look like: 
 ![title](https://github.com/nirajdevpandey/face-emotion-detection/blob/master/data-set/training_data.PNG)
 
-
+***
 Here is what test data look like: 
 ![title](https://github.com/nirajdevpandey/face-emotion-detection/blob/master/data-set/test_data.PNG)
 
@@ -50,10 +50,11 @@ train.csv contains two columns, "emotion" and "pixels". The "emotion" column con
 
 The training set consists of `28,709` examples. The public test set used for the leaderboard consists of `3,589` examples.
 
-This dataset was prepared by `Pierre-Luc Carrier` and `Aaron Courville`, as part of an ongoing research project. 
+> This dataset was prepared by `Pierre-Luc Carrier` and `Aaron Courville`, as part of an ongoing research project. 
 
 Trained model can be found in the repository itself. Special thanks to `B-IT-BOTS` robotics team for such a wonderful resources and the pretrained models. https://mas-group.inf.h-brs.de/?page_id=622
 
 The credit goes to `B-IT-Bots graoup`. 
 
 Please stay tuned, i'll upadte the readme very soon. Thanks 
+***
