@@ -1,4 +1,4 @@
-# face-emotion-detection
+## face-emotion-detection
 
 ### install the correct dependencies by runing below python user defined function
 
